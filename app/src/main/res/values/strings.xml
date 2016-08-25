@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Music Structure App</string>
+    <string name="songName">Song Name \nTum hi ho...</string>
+    <string name="play">Play</string>
+    <string name="onlySongName">Song Name</string>
+    <string name="artist">Artist Name</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="playlist">Play List</string>
+    <string name="favourite">Add to \nFavourite</string>
+    <string name="fav">Favorites</string>
+    <string name="recent">Recently Added</string>
+    <string name="frequent">Frequently Played</string>
+    <string name="matathi">Marathi Songs</string>
+    <string name="hindi">Hindi Songs</string>
+    <string name="english">English Songs</string>
+</resources>
