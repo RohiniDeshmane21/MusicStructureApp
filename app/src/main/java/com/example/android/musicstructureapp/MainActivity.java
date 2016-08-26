@@ -12,13 +12,19 @@ public class MainActivity extends AppCompatActivity {
     Button play;
     TextView artist;
     TextView playlist;
+    TextView activityInfo;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        /*
+        set title show use of activity
+         */
+        activityInfo = (TextView)findViewById(R.id.textViewScreenInfo);
+        activityInfo.setText("Show songs list, Artist and play list folders");
 
-        play = (Button)findViewById(R.id.btnPlay);
+        play = (Button)findViewById(R.id.btnFav);
         artist = (TextView)findViewById(R.id.textViewArtist);
         playlist = (TextView)findViewById(R.id.textViewPlayList);
 

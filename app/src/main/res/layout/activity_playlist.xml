@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="@string/fav"
-        android:id="@+id/textView16"
+        android:id="@+id/textViewFav"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
@@ -26,8 +26,8 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="@string/recent"
         android:layout_marginTop="20dp"
-        android:id="@+id/textView17"
-        android:layout_below="@+id/textView16"
+        android:id="@+id/textViewRecent"
+        android:layout_below="@+id/textViewFav"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
@@ -37,8 +37,8 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="@string/frequent"
         android:layout_marginTop="20dp"
-        android:id="@+id/textView18"
-        android:layout_below="@+id/textView17"
+        android:id="@+id/textViewFrequent"
+        android:layout_below="@+id/textViewRecent"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
@@ -48,8 +48,8 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="@string/matathi"
         android:layout_marginTop="20dp"
-        android:id="@+id/textView19"
-        android:layout_below="@+id/textView18"
+        android:id="@+id/textViewMarathi"
+        android:layout_below="@+id/textViewFrequent"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
@@ -58,7 +58,7 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="@string/hindi"
-        android:id="@+id/textView20"
+        android:id="@+id/textViewHindi"
         android:layout_marginTop="20dp"
         android:layout_centerVertical="true"
         android:layout_alignParentLeft="true"
@@ -70,8 +70,18 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="@string/english"
         android:layout_marginTop="20dp"
-        android:id="@+id/textView21"
-        android:layout_below="@+id/textView20"
+        android:id="@+id/textViewEnglish"
+        android:layout_below="@+id/textViewHindi"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/textViewScreenInfo"
+        android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 </RelativeLayout>

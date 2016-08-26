@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="@string/onlySongName"
-        android:id="@+id/textView8"
+        android:id="@+id/textViewSongName1"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
@@ -24,8 +24,8 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="@string/artist"
-        android:id="@+id/textView9"
-        android:layout_below="@+id/textView8"
+        android:id="@+id/textViewArtist1"
+        android:layout_below="@+id/textViewSongName1"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
@@ -34,8 +34,8 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="@string/onlySongName"
-        android:id="@+id/textView10"
-        android:layout_below="@+id/textView9"
+        android:id="@+id/textViewSongName2"
+        android:layout_below="@+id/textViewArtist1"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_marginTop="20dp" />
@@ -45,8 +45,8 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="@string/artist"
-        android:id="@+id/textView11"
-        android:layout_below="@+id/textView10"
+        android:id="@+id/textViewArtist2"
+        android:layout_below="@+id/textViewSongName2"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
@@ -55,9 +55,9 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="@string/onlySongName"
-        android:id="@+id/textView12"
+        android:id="@+id/textViewSongName3"
         android:layout_marginTop="20dp"
-        android:layout_below="@+id/textView11"
+        android:layout_below="@+id/textViewArtist2"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
@@ -66,8 +66,8 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="@string/artist"
-        android:id="@+id/textView13"
-        android:layout_below="@+id/textView12"
+        android:id="@+id/textViewArtist3"
+        android:layout_below="@+id/textViewSongName3"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
@@ -76,7 +76,7 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="@string/artist"
-        android:id="@+id/textView14"
+        android:id="@+id/textViewArtist4"
         android:layout_centerVertical="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
@@ -86,8 +86,18 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="@string/onlySongName"
-        android:id="@+id/textView15"
-        android:layout_above="@+id/textView14"
+        android:id="@+id/textViewSongName4"
+        android:layout_above="@+id/textViewArtist4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/textViewScreenInfo"
+        android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 

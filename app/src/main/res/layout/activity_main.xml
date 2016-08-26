@@ -21,7 +21,7 @@
             android:id="@+id/songNameTextView"
             android:layout_marginLeft="60dp"
             android:layout_marginStart="60dp"
-            android:layout_alignTop="@+id/btnPlay"
+            android:layout_alignTop="@+id/btnFav"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true" />
 
@@ -29,7 +29,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/play"
-            android:id="@+id/btnPlay"
+            android:id="@+id/btnFav"
             android:layout_centerVertical="true"
             android:layout_alignParentRight="true"
             android:layout_alignParentEnd="true" />
@@ -58,5 +58,15 @@
         android:layout_below="@+id/textViewArtist"
         android:layout_alignLeft="@+id/textViewArtist"
         android:layout_alignStart="@+id/textViewArtist" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/textViewScreenInfo"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
 </RelativeLayout>

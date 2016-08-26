@@ -15,9 +15,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SongsList" />
-        <activity android:name=".Artist" />
-        <activity android:name=".Playlist"></activity>
+        <activity android:name=".SongsList"
+            android:label="theLabelYouWantForYourActivity">
+        </activity>
+
+        <activity android:name=".Artist"
+            android:label="theLabelYouWantForYourActivity">
+        </activity>
+
+        <activity android:name=".Playlist"
+            android:label="theLabelYouWantForYourActivity">
+        </activity>
     </application>
 
 </manifest>
